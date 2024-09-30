@@ -1,0 +1,80 @@
+body {
+    background-image: url('imagem/fundo.png'); /* Caminho para a imagem de fundo */
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+}
+h3{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+label {
+    font-size: 18px;
+}
+input[type="text"] {
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 5px;
+}
+input[type="password"] {
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 5px;
+}
+input[type="tel"]{
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 5px;
+}
+.banner img {
+    margin: 0%;
+    width: 100%;
+    display: block;
+    max-height: 200px;
+    object-fit: cover; 
+ }
+.sorteioSilicone{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+.sorteioSilicone label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.button-group button {
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #96231b;
+    font-size: 1.5em;
+}
+
+.button {
+    font-size: 1.5em !important; 
+}
+.mensagem {
+    margin-top: 2px;
+    font-size: 1.6em !important;
+    text-align: center
+}
